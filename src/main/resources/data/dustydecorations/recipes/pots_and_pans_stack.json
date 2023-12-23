@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "F",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "dustydecorations:cooking_pot"
+    },
+    "F": {
+      "item": "dustydecorations:frying_pan"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:pots_and_pans_stack"
+  }
+}

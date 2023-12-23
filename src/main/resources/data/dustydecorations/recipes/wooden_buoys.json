@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "PPP"
+  ],
+  "key": {
+    "R": {
+      "item": "dustydecorations:rope"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:wooden_buoys"
+  }
+}

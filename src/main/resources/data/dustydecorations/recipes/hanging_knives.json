@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "III"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "dustydecorations:wedged_knife"
+      },
+      {
+        "item": "dustydecorations:wedged_cleaver"
+      }
+    ]
+  },
+  "result": {
+    "item": "dustydecorations:hanging_knives"
+  }
+}

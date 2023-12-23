@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dustydecorations:block/glass_buoy"},
+      {"model": "dustydecorations:block/glass_buoy1"},
+      {"model": "dustydecorations:block/glass_buoy2"},
+      {"model": "dustydecorations:block/glass_buoy3"}
+    ]
+  }
+}

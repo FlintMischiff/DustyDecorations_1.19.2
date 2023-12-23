@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dustydecorations:block/cluttered_shelf"},
+      {"model": "dustydecorations:block/cluttered_shelf1"},
+      {"model": "dustydecorations:block/cluttered_shelf2"},
+      {"model": "dustydecorations:block/cluttered_shelf3"},
+      {"model": "dustydecorations:block/cluttered_shelf4"},
+      {"model": "dustydecorations:block/cluttered_shelf5"}
+    ],
+    "facing=south": [
+      {"model": "dustydecorations:block/cluttered_shelf", "y": 180},
+      {"model": "dustydecorations:block/cluttered_shelf1", "y": 180},
+      {"model": "dustydecorations:block/cluttered_shelf2", "y": 180},
+      {"model": "dustydecorations:block/cluttered_shelf3", "y": 180},
+      {"model": "dustydecorations:block/cluttered_shelf4", "y": 180},
+      {"model": "dustydecorations:block/cluttered_shelf5", "y": 180}
+    ],
+    "facing=west": [
+      {"model": "dustydecorations:block/cluttered_shelf", "y": 270},
+      {"model": "dustydecorations:block/cluttered_shelf1", "y": 270},
+      {"model": "dustydecorations:block/cluttered_shelf2", "y": 270},
+      {"model": "dustydecorations:block/cluttered_shelf3", "y": 270},
+      {"model": "dustydecorations:block/cluttered_shelf4", "y": 270},
+      {"model": "dustydecorations:block/cluttered_shelf5", "y": 270}
+    ],
+    "facing=east": [
+      {"model": "dustydecorations:block/cluttered_shelf", "y": 90},
+      {"model": "dustydecorations:block/cluttered_shelf1", "y": 90},
+      {"model": "dustydecorations:block/cluttered_shelf2", "y": 90},
+      {"model": "dustydecorations:block/cluttered_shelf3", "y": 90},
+      {"model": "dustydecorations:block/cluttered_shelf4", "y": 90},
+      {"model": "dustydecorations:block/cluttered_shelf5", "y": 90}
+    ]
+  }
+}

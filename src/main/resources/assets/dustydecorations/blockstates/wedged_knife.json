@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dustydecorations:block/wedged_knife"
+    },
+    "facing=south": {
+      "model": "dustydecorations:block/wedged_knife",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dustydecorations:block/wedged_knife",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dustydecorations:block/wedged_knife",
+      "y": 90
+    }
+  }
+}

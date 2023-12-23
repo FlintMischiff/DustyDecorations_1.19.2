@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=south": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 180,
+      "y": 90
+    },
+    "face=floor,facing=east": {
+      "model": "dustydecorations:block/treasure_map",
+      "y": 90
+    },
+    "face=floor,facing=north": {
+      "model": "dustydecorations:block/treasure_map"
+    },
+    "face=floor,facing=south": {
+      "model": "dustydecorations:block/treasure_map",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "dustydecorations:block/treasure_map",
+      "y": 270
+    },
+    "face=wall,facing=east": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 90
+    },
+    "face=wall,facing=south": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "dustydecorations:block/treasure_map",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "dustydecorations:block/cutting_board",
+		"particle": "dustydecorations:block/cutting_board"
+	},
+	"elements": [
+		{
+			"name": "board",
+			"from": [1, 0, 2],
+			"to": [13, 1, 14],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"east": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"south": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"west": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"up": {"uv": [2, 0, 14, 12], "texture": "#0"},
+				"down": {"uv": [2, 0, 14, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "north_connecter",
+			"from": [13, 0, 2],
+			"to": [14, 1, 6],
+			"faces": {
+				"north": {"uv": [1, 12, 2, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"up": {"uv": [1, 0, 2, 4], "texture": "#0"},
+				"down": {"uv": [1, 0, 2, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "south_connector",
+			"from": [13, 0, 10],
+			"to": [14, 1, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"south": {"uv": [1, 12, 2, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"up": {"uv": [1, 8, 2, 12], "texture": "#0"},
+				"down": {"uv": [1, 8, 2, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "edge",
+			"from": [14, 0, 2],
+			"to": [15, 1, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 12, 13], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 12, 13], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "cutting_board",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

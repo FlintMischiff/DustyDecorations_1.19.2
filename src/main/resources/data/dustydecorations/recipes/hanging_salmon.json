@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hanging_fish",
+  "pattern": [
+    " R ",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:salmon"
+    },
+    "R": {
+      "item": "dustydecorations:rope"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:hanging_salmon"
+  }
+}

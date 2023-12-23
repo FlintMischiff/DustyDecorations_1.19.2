@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dustydecorations:block/rope",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dustydecorations:block/rope"
+    },
+    "axis=z": {
+      "model": "dustydecorations:block/rope",
+      "x": 90
+    }
+  }
+}

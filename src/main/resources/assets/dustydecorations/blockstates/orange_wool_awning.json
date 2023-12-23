@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dustydecorations:block/orange_wool_awning"
+    },
+    "facing=south": {
+      "model": "dustydecorations:block/orange_wool_awning",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dustydecorations:block/orange_wool_awning",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dustydecorations:block/orange_wool_awning",
+      "y": 90
+    }
+  }
+}

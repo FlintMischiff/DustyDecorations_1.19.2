@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dustydecorations:block/coiled_rope"
+    },
+    "facing=south": {
+      "model": "dustydecorations:block/coiled_rope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dustydecorations:block/coiled_rope",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dustydecorations:block/coiled_rope",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dustydecorations:placeable_bowl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bowl"
+  }
+}

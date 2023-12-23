@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dustydecorations:empty_barrel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:barrel"
+  }
+}

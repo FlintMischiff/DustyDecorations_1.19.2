@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dustydecorations:block/jars"},
+      {"model": "dustydecorations:block/jars1"},
+      {"model": "dustydecorations:block/jars2"},
+      {"model": "dustydecorations:block/jars3"},
+      {"model": "dustydecorations:block/jars4"},
+      {"model": "dustydecorations:block/jars5"}
+    ],
+    "facing=south": [
+      {"model": "dustydecorations:block/jars", "y": 180},
+      {"model": "dustydecorations:block/jars1", "y": 180},
+      {"model": "dustydecorations:block/jars2", "y": 180},
+      {"model": "dustydecorations:block/jars3", "y": 180},
+      {"model": "dustydecorations:block/jars4", "y": 180},
+      {"model": "dustydecorations:block/jars5", "y": 180}
+    ],
+    "facing=west": [
+      {"model": "dustydecorations:block/jars", "y": 270},
+      {"model": "dustydecorations:block/jars1", "y": 270},
+      {"model": "dustydecorations:block/jars2", "y": 270},
+      {"model": "dustydecorations:block/jars3", "y": 270},
+      {"model": "dustydecorations:block/jars4", "y": 270},
+      {"model": "dustydecorations:block/jars5", "y": 270}
+    ],
+    "facing=east": [
+      {"model": "dustydecorations:block/jars", "y": 90},
+      {"model": "dustydecorations:block/jars1", "y": 90},
+      {"model": "dustydecorations:block/jars2", "y": 90},
+      {"model": "dustydecorations:block/jars3", "y": 90},
+      {"model": "dustydecorations:block/jars4", "y": 90},
+      {"model": "dustydecorations:block/jars5", "y": 90}
+    ]
+  }
+}

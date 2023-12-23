@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dustydecorations:block/poster"},
+      {"model": "dustydecorations:block/poster1"},
+      {"model": "dustydecorations:block/poster2"},
+      {"model": "dustydecorations:block/poster3"},
+      {"model": "dustydecorations:block/poster4"},
+      {"model": "dustydecorations:block/poster5"},
+      {"model": "dustydecorations:block/poster6"},
+      {"model": "dustydecorations:block/poster7"},
+      {"model": "dustydecorations:block/poster8"},
+      {"model": "dustydecorations:block/poster9"},
+      {"model": "dustydecorations:block/poster10"}
+    ],
+    "facing=south": [
+      {"model": "dustydecorations:block/poster", "y": 180},
+      {"model": "dustydecorations:block/poster1", "y": 180},
+      {"model": "dustydecorations:block/poster2", "y": 180},
+      {"model": "dustydecorations:block/poster3", "y": 180},
+      {"model": "dustydecorations:block/poster4", "y": 180},
+      {"model": "dustydecorations:block/poster5", "y": 180},
+      {"model": "dustydecorations:block/poster6", "y": 180},
+      {"model": "dustydecorations:block/poster7", "y": 180},
+      {"model": "dustydecorations:block/poster8", "y": 180},
+      {"model": "dustydecorations:block/poster9", "y": 180},
+      {"model": "dustydecorations:block/poster10", "y": 180}
+    ],
+    "facing=west": [
+      {"model": "dustydecorations:block/poster", "y": 270},
+      {"model": "dustydecorations:block/poster1", "y": 270},
+      {"model": "dustydecorations:block/poster2", "y": 270},
+      {"model": "dustydecorations:block/poster3", "y": 270},
+      {"model": "dustydecorations:block/poster4", "y": 270},
+      {"model": "dustydecorations:block/poster5", "y": 270},
+      {"model": "dustydecorations:block/poster6", "y": 270},
+      {"model": "dustydecorations:block/poster7", "y": 270},
+      {"model": "dustydecorations:block/poster8", "y": 270},
+      {"model": "dustydecorations:block/poster9", "y": 270},
+      {"model": "dustydecorations:block/poster10", "y": 270}
+    ],
+    "facing=east": [
+      {"model": "dustydecorations:block/poster", "y": 90},
+      {"model": "dustydecorations:block/poster1", "y": 90},
+      {"model": "dustydecorations:block/poster2", "y": 90},
+      {"model": "dustydecorations:block/poster3", "y": 90},
+      {"model": "dustydecorations:block/poster4", "y": 90},
+      {"model": "dustydecorations:block/poster5", "y": 90},
+      {"model": "dustydecorations:block/poster6", "y": 90},
+      {"model": "dustydecorations:block/poster7", "y": 90},
+      {"model": "dustydecorations:block/poster9", "y": 90},
+      {"model": "dustydecorations:block/poster8", "y": 90},
+      {"model": "dustydecorations:block/poster10", "y": 90}
+    ]
+  }
+}

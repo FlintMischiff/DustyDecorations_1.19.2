@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dustydecorations:block/frying_pan"
+    },
+    "facing=south": {
+      "model": "dustydecorations:block/frying_pan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dustydecorations:block/frying_pan",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "dustydecorations:block/frying_pan",
+      "y": 90
+    }
+  }
+}

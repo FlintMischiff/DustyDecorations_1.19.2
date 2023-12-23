@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_awning",
+  "pattern": [
+    "WWW",
+    "S  "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:orange_wool"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:orange_wool_awning",
+    "count": 3
+  }
+}

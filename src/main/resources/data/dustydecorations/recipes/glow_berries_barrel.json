@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barrels",
+  "pattern": [
+    "FFF",
+    " B "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:glow_berries"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:glow_berries_barrel"
+  }
+}

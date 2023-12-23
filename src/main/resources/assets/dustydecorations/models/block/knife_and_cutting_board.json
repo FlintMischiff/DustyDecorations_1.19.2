@@ -1,0 +1,138 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "dustydecorations:block/cutting_board",
+		"1": "dustydecorations:block/wedged_knife",
+		"particle": "dustydecorations:block/cutting_board"
+	},
+	"elements": [
+		{
+			"name": "board",
+			"from": [1, 0, 2],
+			"to": [13, 1, 14],
+			"faces": {
+				"north": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"east": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"south": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"west": {"uv": [2, 12, 14, 13], "texture": "#0"},
+				"up": {"uv": [2, 0, 14, 12], "texture": "#0"},
+				"down": {"uv": [2, 0, 14, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "north_connecter",
+			"from": [13, 0, 2],
+			"to": [14, 1, 6],
+			"faces": {
+				"north": {"uv": [1, 12, 2, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"up": {"uv": [1, 0, 2, 4], "texture": "#0"},
+				"down": {"uv": [1, 0, 2, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "south_connector",
+			"from": [13, 0, 10],
+			"to": [14, 1, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"south": {"uv": [1, 12, 2, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 4, 13], "texture": "#0"},
+				"up": {"uv": [1, 8, 2, 12], "texture": "#0"},
+				"down": {"uv": [1, 8, 2, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "edge",
+			"from": [14, 0, 2],
+			"to": [15, 1, 14],
+			"faces": {
+				"north": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"east": {"uv": [0, 12, 12, 13], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 13], "texture": "#0"},
+				"west": {"uv": [0, 12, 12, 13], "texture": "#0"},
+				"up": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [4.5, 2, 6],
+			"to": [4.5, 5, 13],
+			"rotation": {"angle": 45, "axis": "x", "origin": [4.5, 4, 7.5]},
+			"faces": {
+				"north": {"uv": [7, 5, 7, 8], "texture": "#1"},
+				"east": {"uv": [0, 5, 7, 8], "texture": "#1"},
+				"south": {"uv": [14, 5, 14, 8], "texture": "#1"},
+				"west": {"uv": [7, 5, 14, 8], "texture": "#1"},
+				"up": {"uv": [7, 5, 7, -2], "texture": "#1"},
+				"down": {"uv": [7, -2, 7, 5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [4, 4, 2],
+			"to": [5, 5, 6],
+			"rotation": {"angle": 45, "axis": "x", "origin": [4.5, 4, 7.5]},
+			"faces": {
+				"north": {"uv": [4, 4, 5, 5], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 5], "texture": "#1"},
+				"south": {"uv": [9, 4, 10, 5], "texture": "#1"},
+				"west": {"uv": [5, 4, 9, 5], "texture": "#1"},
+				"up": {"uv": [5, 4, 4, 0], "texture": "#1"},
+				"down": {"uv": [6, 0, 5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 3],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "cutting_board",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		{
+			"name": "wedged_knife",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5]
+		}
+	]
+}

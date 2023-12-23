@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barrels",
+  "pattern": [
+    "FFF",
+    " B "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:carrot"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:carrot_barrel"
+  }
+}

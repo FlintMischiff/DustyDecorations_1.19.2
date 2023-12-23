@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "dustydecorations:jars",
+    "dustydecorations:corrugated_metal",
+    "dustydecorations:corrugated_metal_awning",
+    "dustydecorations:anchor",
+    "dustydecorations:cooking_pot",
+    "dustydecorations:frying_pan",
+    "dustydecorations:pots_and_pans_stack",
+    "dustydecorations:globe",
+    "dustydecorations:old_globe"
+
+  ]
+}

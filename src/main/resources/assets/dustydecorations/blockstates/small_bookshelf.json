@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dustydecorations:block/small_bookshelf"},
+      {"model": "dustydecorations:block/small_bookshelf1"},
+      {"model": "dustydecorations:block/small_bookshelf2"}
+    ],
+    "facing=south": [
+      {"model": "dustydecorations:block/small_bookshelf", "y": 180},
+      {"model": "dustydecorations:block/small_bookshelf1", "y": 180},
+      {"model": "dustydecorations:block/small_bookshelf2", "y": 180}
+    ],
+    "facing=west": [
+      {"model": "dustydecorations:block/small_bookshelf", "y": 270},
+      {"model": "dustydecorations:block/small_bookshelf1", "y": 270},
+      {"model": "dustydecorations:block/small_bookshelf2", "y": 270}
+    ],
+    "facing=east": [
+      {"model": "dustydecorations:block/small_bookshelf", "y": 90},
+      {"model": "dustydecorations:block/small_bookshelf1", "y": 90},
+      {"model": "dustydecorations:block/small_bookshelf2", "y": 90}
+    ]
+  }
+}

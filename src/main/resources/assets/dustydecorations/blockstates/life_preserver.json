@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "dustydecorations:block/life_preserver",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "dustydecorations:block/life_preserver",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dustydecorations:block/life_preserver",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "dustydecorations:block/life_preserver",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "dustydecorations:block/life_preserver"
+    },
+    "facing=west": {
+      "model": "dustydecorations:block/life_preserver",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

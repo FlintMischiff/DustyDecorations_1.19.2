@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barrels",
+  "pattern": [
+    "FFF",
+    " B "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:cod"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "dustydecorations:cod_barrel"
+  }
+}
