@@ -30,7 +30,7 @@ public class ChairBlock extends HorizontalDirectionalBlock {
         return SHAPE;
     }
 
-    //This is a test comment
+    //This comment is a test
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
