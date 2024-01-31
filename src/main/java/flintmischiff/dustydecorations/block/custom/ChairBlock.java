@@ -30,8 +30,6 @@ public class ChairBlock extends HorizontalDirectionalBlock {
         return SHAPE;
     }
 
-    //This comment is a test
-
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext pContext) {
         return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
